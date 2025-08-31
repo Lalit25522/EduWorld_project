@@ -1,0 +1,131 @@
+.messagingcontainer {
+    display: block;
+    height: 800px;
+    background-color: white;
+}
+.chatsidebar {
+    width: 300px;
+    border: 2px solid #375E97;
+    float: left;
+    height: 800px;
+}
+
+.chatsidebarTitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ChatTitle {
+    font-size: 40px;
+    color: #fd390f;
+}
+
+.chatitem {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chatitem:hover {
+    background-color: #979A9A;
+}
+
+.chatitem span {
+    font-size: 25px;
+}
+
+.selectedchatWindow {
+    margin-left: 300px;
+    height: 74%;
+
+}
+
+.Heading {
+    padding: 20px;
+    border-bottom: 2px solid #375E97;
+    text-align: left;
+}
+
+.Heading h2 {
+    font-size: 20px;
+    color: #fd390f
+}
+
+.chat-messages {
+    height: 100%;
+    padding: 20px;
+    overflow: auto;
+    background-color: white;
+}
+
+.messagesent {
+    background-color: #375E97;
+    color: white;
+    float: right;
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.messagereceived {
+    background-color: #7FB3D5;
+    float: left;
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.message-input {
+    padding: 10px;
+    background-color: white;
+    border-top: 2px solid #375E97;
+}
+
+.message-input textarea {
+    width: 90%;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #375E97;
+    font-size: 20px;
+    background-color: white;
+    float: left;
+}
+
+.message-input button {
+    padding: 15px;
+    background-color: #375E97;
+    border-radius: 15px;
+    border: 2px solid #375E97;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+}
+
+.message-input button:hover {
+    background-color: #85C1E9;
+    border: 2px solid #85C1E9;
+}
+
+.chatstartText{
+    margin-top: 0%;
+    font-size: 30px;
+    padding: 100px;
+    color: #fd390f;
+}
+
+.startchatbutton{
+    height: 70px;
+    margin-top: 10%;
+    background-color: #FFBB00;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid #FFBB00;
+    margin-left: 20%;
+    cursor: pointer;
+    width: 60%;
+}

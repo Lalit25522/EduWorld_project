@@ -1,0 +1,104 @@
+.navigation{
+    width: 100%;
+    padding: 1%;
+    background-color: #375E97;
+}
+
+.List{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    align-items: center;
+}
+
+.Logout{
+    background-color: #FFBB00;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid #FFBB00;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.searchbutton {
+    height: 50px;
+    background-color: #FFBB00;
+    font-size: 18px;
+    border-radius: 20px;
+    border: solid #FFBB00;
+    cursor: pointer;
+}
+
+.searchbar{
+    height: 40px;
+    font-size: 20px;
+}
+
+.Item{
+    text-decoration: none;
+    padding: 2%;
+    font-size: 25px;
+    position: relative;
+}
+
+.Item a{
+    color: white;
+    text-decoration: none;
+}
+
+.Item a:hover {
+    color: black;
+}
+
+.dropdown {
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.dropdownmenu li {
+    display: block;
+}
+
+.dropdownmenu {
+    background: #375E97;
+    position: absolute;
+    display: none;
+    width: 150%;
+}
+
+.Item:hover .dropdownmenu{
+    display: block;
+}
+
+.dropdownmenuarticle{
+    
+    background: #375E97;
+    position: absolute;
+    display: none;
+}
+
+.dropdownmenuarticle li {
+    display: block;
+}
+
+.Item:hover .dropdownmenuarticle{
+    display: block;
+}
+
+.dropdownmenuapplication{
+    background: #375E97;
+    position: absolute;
+    display: none;
+}
+
+.dropdownmenuapplication li {
+    display: block;
+}
+
+.Item:hover .dropdownmenuapplication{
+    display: block;
+}
+
+  

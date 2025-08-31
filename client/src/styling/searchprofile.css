@@ -1,0 +1,92 @@
+@media only screen and (min-width: 750px){
+    
+    .Profilepage{
+        width: 50%;
+        border: 2px solid #375E97;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+    }
+    
+
+    .fullname{
+        margin-left: 35%;
+        font-size: 60px;
+
+    }
+
+    .infotext{
+        font-size: 25px;
+    }
+
+    .profilephoto{
+        border-radius: 50%;
+        width: 65% 
+    }
+
+    .profile{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+
+    .showdetails{
+        margin-top: 2%;
+        margin-left: 15%;
+        border: 2px solid #375E97;
+        border-radius: 25px;
+        padding: 2%
+    }
+    
+    .Message{
+        height: 70px;
+        width: 60%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 18px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .Profilepage{
+        width: 60%;
+        border: 2px solid #375E97;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+    }
+
+    .showdetails{
+        margin-top: 5%;
+        margin-left: 2%;
+        border: 2px solid #375E97;
+        border-radius: 25px;
+        padding: 2%
+    }
+
+    .profilephoto{
+        border-radius: 50%;
+        width: 80% 
+    }
+    
+    .Message{
+        height: 50px;
+        width: 50%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 13px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+    }
+}

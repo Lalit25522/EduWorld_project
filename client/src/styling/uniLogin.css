@@ -1,0 +1,132 @@
+@media only screen and (min-width: 750px){
+    .Loginpage{
+        display: flex;
+    }
+    
+    .Logo {
+        margin-top: 25%;
+        height: 500px;
+    }
+    
+    .Loginform{
+        width: 20%;
+        border: 2px solid #375E97;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-color: black;
+        border-radius: 25px;
+    }
+    
+    .Title{
+        text-align: center;
+        font-size: 60px;
+        color: #fd390f;
+    }
+    
+    .textfield{
+        font-size: 30px;
+    }
+    
+    .passwordfield{
+        margin-top: 5%;
+    }
+    
+    .inputfield{
+        margin-top: 3%;
+        width: 120%;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    
+    
+    .SubmitButton{
+        height: 70px;
+        width: 60%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 18px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+    
+    .account{
+        height: 70px;
+        width: 60%;
+        margin-top: 10%;
+        background-color: #F96167;
+        font-size: 18px;
+        border-radius: 20px;
+        border: solid #F96167;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .Logo {
+        height: 400px;
+    }
+
+    .Loginform{
+        width: 50%;
+        border: 2px solid #375E97;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+    }
+
+    .Title{
+        text-align: center;
+        font-size: 40px;
+        color: #fd390f;
+    }
+    
+    .textfield{
+        font-size: 30px;
+    }
+    
+    .passwordfield{
+        margin-top: 5%;
+    }
+    
+    .inputfield{
+        margin-top: 3%;
+        width: 100%;
+        height: 50px;
+        font-size: 13px;
+    }
+    
+    .SubmitButton{
+        height: 50px;
+        width: 50%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 13px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+    
+    .account{
+        height: 50px;
+        width: 50%;
+        margin-top: 10%;
+        background-color: #F96167;
+        font-size: 13px;
+        border-radius: 20px;
+        border: solid #F96167;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+}

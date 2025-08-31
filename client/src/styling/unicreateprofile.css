@@ -1,0 +1,127 @@
+@media only screen and (min-width: 750px){
+    
+    .universityprofilePage{
+        width: 50%;
+        border: 2px solid #375E97;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+    }
+    
+    .Title{
+        text-align: center;
+        font-size: 60px;
+        color: #fd390f;
+    }
+    
+    .textfield{
+        font-size: 30px;
+    }
+    
+    
+    .inputfield{
+        margin-top: 2%;
+        width: 120%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .universityNamefield{
+        margin-top: 2%;
+    }
+
+    .universityLocationfield{
+        margin-top: 2%;
+    }
+    
+    .universityWebsitefield{
+        margin-top: 2%;
+    }
+
+    .universityEmailfield{
+        margin-top: 2%;
+    }
+
+    .universityDescriptionfield{
+        margin-top: 2%;
+    }
+    
+    .SubmitButton{
+        height: 70px;
+        width: 60%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 18px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .universityprofilePage{
+        width: 60%;
+        border: 2px solid #375E97;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        border-radius: 25px;
+    }
+    .Title{
+        text-align: center;
+        font-size: 40px;
+        color: #fd390f;
+    }
+    
+    .textfield{
+        font-size: 30px;
+    }
+    
+    
+    .inputfield{
+        margin-top: 5%;
+        width: 100%;
+        height: 50px;
+        font-size: 13px;
+    }
+    
+    .universityNamefield{
+        margin-top: 5%;
+    }
+
+    .universityLocationfield{
+        margin-top: 5%;
+    }
+    
+    .universityWebsitefield{
+        margin-top: 5%;
+    }
+
+    .universityEmailfield{
+        margin-top: 5%;
+    }
+
+    .universityDescriptionfield{
+        margin-top: 5%;
+    }
+    
+    .SubmitButton{
+        height: 50px;
+        width: 50%;
+        margin-top: 10%;
+        background-color: #FFBB00;
+        font-size: 13px;
+        border-radius: 20px;
+        border: solid #FFBB00;
+        margin-left: 20%;
+        cursor: pointer;
+    }
+}
